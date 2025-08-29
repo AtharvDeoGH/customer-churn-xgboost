@@ -105,17 +105,3 @@ print("Wrote predictions.csv")
 ## Results (baseline)
 - Validation **AUC ≈ 0.75** on a 25% holdout (see report for details).
 - Inactivity and reduced visit frequency emerge as leading churn indicators.
-
-## Roadmap
-- Add feature engineering utilities and config-driven training.
-- Hyperparameter search (e.g., Optuna).
-- Model monitoring: drift, calibration checks, and thresholding for actions.
-- CRM integration for automated retention campaigns.
-
-## Repo Tips
-- Use `.gitignore` to exclude large/raw data and environment folders.
-- Keep secrets out of the repo; use environment variables or a secrets manager.
-- Consider adding a `Makefile` or `tasks.py` for repeatable workflows.
-
-## License
-Choose an open-source license (e.g., MIT) and add it as `LICENSE`.
